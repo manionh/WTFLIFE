@@ -5,8 +5,8 @@ function copyToClipboard() {
 
     navigator.clipboard.writeText(caText).then(() => {
         btn.innerText = "DATA ACQUIRED";
-        btn.style.borderColor = "#c2a878"; // Gold
-        btn.style.color = "#c2a878";
+        btn.style.borderColor = "var(--brass-light)";
+        btn.style.color = "var(--brass-light)";
         
         setTimeout(() => {
             btn.innerText = originalText;
